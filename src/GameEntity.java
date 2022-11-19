@@ -4,7 +4,7 @@ public class GameEntity {
 
 
     public int getHealth() {
-        return health;
+        return this.health;
     }
 
     public void setHealth(int health) {
@@ -12,7 +12,7 @@ public class GameEntity {
     }
 
     public int getDamage() {
-        return damage;
+        return this.damage;
     }
 
     public void setDamage(int damage) {

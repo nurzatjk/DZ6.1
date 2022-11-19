@@ -1,5 +1,15 @@
 public class Boss extends GameEntity {
-private int numberofarrows;
+  private   Weapon weapon = new Weapon();
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
+
+    private int numberofarrows;
 
     public int getNumberofarrows() {
         return numberofarrows;
